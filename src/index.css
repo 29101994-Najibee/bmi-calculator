@@ -3,8 +3,17 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
+  color: #fff;
 }
- 
+ body{
+  background: linear-gradient(
+    90deg,
+    rgba(48, 16, 255, 1) 0%,
+    rgba(100, 115, 255, 1) 100%
+  );
+ }
 .app {
   display: flex;
   flex-direction: column;
@@ -15,17 +24,24 @@
 }
  
 .container {
-  box-shadow: 0px 0px 12px #ccc;
+  width: 520px;
+  min-height: 600px;
+  background: #161a2b;
+
   border-radius: 8px;
   padding: 3rem;
+  
 }
- 
+
 input {
-  width: 100%;
-  font-size: 1.2rem;
-  padding: 15px 4px;
-  margin: 8px 0;
+  padding: 14px 32px 14px 16px;
   border-radius: 8px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  margin: 10px 0px ;
 }
  
 .btn {
@@ -34,17 +50,20 @@ input {
   font-size: 1.2rem;
   margin: 8px 0;
   padding: 15px 0;
-  background-color: #0077EE;
+  background: linear-gradient(
+    90deg,
+    rgba(93, 12, 255, 1) 0%,
+    rgba(155, 0, 250, 1) 100%
+  );
   color: #fff;
-  border: 1px solid #333;
   border-radius: 8px;
   cursor: pointer;
 }
 /* unvisited link */
  
 .btn-outline {
-  background-color: #fff;
-  color: #A6BCDA;
+  background-color: #8CABFF;
+ 
 }
  
 .center {
